@@ -81,7 +81,7 @@ class Table:
     def assign_seat(self, name):
         for seat in self.seats:
             if seat.free:
-                # using the method from set_occupant from the Seat class
+                # using the method set_occupant from the Seat class
                 seat.set_occupant(name)
                 # avoids assigning of a person to every free seat.
                 break
