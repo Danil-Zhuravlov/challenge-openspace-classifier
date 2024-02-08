@@ -33,10 +33,13 @@ class Openspace:
         if len(not_assigned) > 0:
             message = "There is no place for " + ", ".join(not_assigned)
             return(message)
+        else:
+            return(None)
 
 
     def display(self):
-        pass
+        for i, table in enumerate(self.tables, start=1):
+            
 
     def store(filename):
         pass
