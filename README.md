@@ -6,7 +6,7 @@ The OpenSpace Organizer is a Python-based tool designed to dynamically allocate 
 
 ## Installation
 
-    git@github.com:Danil-Zhuravlov/challenge-openspace-classifier.git
+    git clone git@github.com:Danil-Zhuravlov/challenge-openspace-classifier.git
     cd challenge-openspace-classifier
     pip install -r requirements.txt
 
