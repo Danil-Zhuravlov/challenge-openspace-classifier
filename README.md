@@ -40,7 +40,7 @@ Ensure there are no headers in the file for the program to function correctly.
 
 ## Visuals
 
-![Usage Example](images/Usage_Example.png)
+![Usage Example](images/Usage_Example_.png)
 
 The above image demonstrates a sample output of the seating arrangement.
 
