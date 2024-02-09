@@ -35,7 +35,7 @@ class Seat:
             self.occupant = name
             self.free = False
 
-    def remove_occupant(self):
+    def remove_occupant(self) -> str:
         if self.free == False:
             last_occupant = self.occupant
             self.occupant = None

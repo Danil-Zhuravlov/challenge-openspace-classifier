@@ -5,7 +5,7 @@ from utils.openspace import Openspace
 def read_names_from_csv(path):
     names = []
     with open(path, newline='') as csvfile:
-        for row in csvfile:
+        for row in csv.reader(csvfile):
             names.append(row[0]) # make sure that names are in the first column
     return(names)
 
