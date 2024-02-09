@@ -12,9 +12,31 @@ The OpenSpace Organizer is a Python-based tool designed to dynamically allocate 
 
 ## Usage
 
-To run the OpenSpace Organizer, execute the main.py script. Ensure you have a CSV file named new_colleagues.csv in the utils directory with the names of the participants.
+### Running the Program
 
-    python main.py
+To run the program, navigate to the project directory in your terminal and execute the following command:
+
+    python main.py <path_to_your_csv_file>
+
+Replace <path_to_your_csv_file> with the actual path to your CSV file containing the names of the colleagues. For example:
+
+    python main.py utils/new_colleagues.csv
+
+This command initiates the program, which reads the list of names from the specified CSV file, randomly assigns seating arrangements, and displays the results along with any unassigned names and the number of free seats left.
+
+### CSV File Format
+
+The CSV file should be formatted with one name per line, as shown below:
+
+    Will Smith
+    Leonardo DiCaprio
+    Bill Gates
+    Morgan Freeman
+    Barack Obama
+    ...
+
+Ensure there are no headers in the file for the program to function correctly.
+
 
 ## Visuals
 
