@@ -11,7 +11,7 @@ def read_names_from_csv(path):
 
 openspace = Openspace(6)
 
-names = read_names_from_csv('/utils/new_colleagues.csv')
+names = read_names_from_csv('utils/new_colleagues.csv')
 
 result = openspace.organize(names)
 

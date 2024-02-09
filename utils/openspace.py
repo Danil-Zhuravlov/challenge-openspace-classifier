@@ -1,7 +1,7 @@
 import pandas as pd
 from random import shuffle
 
-from table import Table
+from .table import Table
 
 class Openspace:
     """
