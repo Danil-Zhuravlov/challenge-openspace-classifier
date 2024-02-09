@@ -41,7 +41,6 @@ class Seat:
             self.occupant = None
             self.free = True
             return(last_occupant)
-        
 
 
 
